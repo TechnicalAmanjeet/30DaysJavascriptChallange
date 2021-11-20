@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+button{
+    background-color: blueviolet;
+}
+
+body{
+    background-image: url("./images/background.jpg");
+    background: rgb(80, 48, 110);
+    /* text-align: center; */
+    
+    /* display: flex; */
+    /* justify-items: center; */
+}
+
+main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    /* text-align: center;
+    justify-items: center;
+    justify-content: space-around; */
+    /* margin: auto; */
+}
+
+.box{
+    padding: 2vw;
+    height: 20vh;
+    border: 2px solid black;
+    text-align: center;
+    display: flex;
+    margin: auto;
+}
+
+p{
+    margin-top: 10px;
+    color: yellow;
+}
